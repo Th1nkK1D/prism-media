@@ -1,5 +1,7 @@
-const Prism = require('./Prism');
-const MediaTranscoder = require('./transcoders/MediaTranscoder');
+'use strict';
+
+var Prism = require('./Prism');
+var MediaTranscoder = require('./transcoders/MediaTranscoder');
 
 Prism.MediaTranscoder = MediaTranscoder;
 
