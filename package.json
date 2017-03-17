@@ -4,7 +4,7 @@
   "description": "Makes transcoding media easier",
   "main": "src/index.js",
   "scripts": {
-    "lint" : "eslint src && eslint test",
+    "lint": "eslint src && eslint test",
     "test": "npm run lint"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/hydrabolt/prism-media#readme",
   "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
     "eslint": "^3.12.2"
   }
 }
